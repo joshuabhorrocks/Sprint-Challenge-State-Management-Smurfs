@@ -1,3 +1,19 @@
 .App {
   text-align: center;
+  background-color: dodgerBlue;
+}
+
+header {
+  background-color: red;
+  height: 10vh;
+}
+
+.data-card {
+  background-color: #2ca7d4;
+  display: flex;
+  width: 98%;
+  height: 30vh;
+  justify-content: center;
+  flex-flow: column wrap;
+  margin: 1%
 }
