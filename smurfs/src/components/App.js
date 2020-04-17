@@ -9,7 +9,7 @@ export default function App() {
     <div className="App">
         <header>
           <h1>SMURFS!</h1>
-          <div>Welcome to the Smurfs!</div>
+          <h2>Meet the Smurfs or add your own!</h2>
         </header>
       <SmurfsForm />
       <SmurfsList />

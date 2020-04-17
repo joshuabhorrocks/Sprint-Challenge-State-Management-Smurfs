@@ -19,7 +19,7 @@ const SmurfsForm = props => {
     };
 
     return (
-        <div>
+        <div className="form">
             <form onSubmit={submitForm}>
                 <label className="name-input">
                     Name:
@@ -34,7 +34,7 @@ const SmurfsForm = props => {
                     <input name="height" id="" type="text" onChange={changeHandler} value={newSmurf.height} />
                 </label>
                 {console.log("Submitting new: ", props)}
-                <button type="submit" onClick={() => props.sendSmurfs(newSmurf)}>
+                <button className="submit-button" type="submit" onClick={() => props.sendSmurfs(newSmurf)}>
                     Add Your Smurf!
                 </button>
             </form>

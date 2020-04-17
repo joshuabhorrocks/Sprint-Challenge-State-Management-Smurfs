@@ -4,16 +4,54 @@
 }
 
 header {
-  background-color: red;
+  padding: 1% 0%;
+  color: white;
+  background-color: purple;
   height: 10vh;
 }
 
+.form {
+  color: white;
+  height: 25vh;
+  background-color: #bd6dcf;
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.name-input {
+  display:flex;
+  justify-content: center;
+  padding: 1%;
+  padding-right: 3%;
+}
+
+.age-input {
+  display:flex;
+  justify-content: center;
+  padding-bottom: 1%;
+  padding-right: 2.75%;
+}
+
+.height-input {
+  display:flex;
+  justify-content: center;
+  padding-bottom: 1%;
+  padding-right: 2%;
+}
+
+.submit-button {
+  width: 7%;
+  height: 3vh;
+}
+
 .data-card {
+  color: white;
   background-color: #2ca7d4;
   display: flex;
-  width: 98%;
-  height: 30vh;
+  width: 50%;
+  height: 20vh;
   justify-content: center;
   flex-flow: column wrap;
-  margin: 1%
+  margin: 1%;
+  margin-left: 25%;
 }
